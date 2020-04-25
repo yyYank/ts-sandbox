@@ -1,0 +1,16 @@
+{
+  "name": "ts-sandbox",
+  "version": "0.0.1",
+  "description": "typescript sandbox for me",
+  "main": "index.ts",
+  "repository": "https://github.com/yyYank/ts-sandbox.git",
+  "author": "yy_yank",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc -p . && node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
